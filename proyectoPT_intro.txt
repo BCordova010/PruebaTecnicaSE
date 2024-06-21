@@ -1,4 +1,4 @@
-Bienvenido a mi repositorio
+Bienvenido a mi repositorio.
 
 Herramientas utilizadas:
 HTML, CSS, PHP 7.4, Javascript, PostgreSQL, Dbeaver (administración de BD) y XAMPP (servidor web local)
@@ -11,10 +11,10 @@ https://drive.google.com/drive/folders/1SvMswDIxu0D2qQLUBevBDL8D2lbH1C0V?usp=dri
 El modelo de datos se puede encontrar en: GitHub -> proyectoPT_sql -> proyectoPT_-_DiagramaER.png
 
 El archivo Backup de la BD se puede entronctrar en: GitHub -> proyectoPT_sql -> backup
-Existen 2 archivos Backup, uno en .sql y otro en .tar, ambos tienen la misma información
+Existen 2 archivos Backup, uno en .sql y otro en .tar, ambos tienen la misma información.
 
 El código fuente puede encontrarse en: GitHub -> proyectoPT_codigo -> PruebaTecnicaBodega
-Aquí se encuentran los archivos .php utilizados en la página
+Aquí se encuentran los archivos .php utilizados en la página.
 -----------------------
 
 --Como hacer funcionar la página web--
@@ -30,7 +30,7 @@ para este caso, solo utilizamos Apache.
 Reemplazar directorio instalado con el archivo presente en el Drive "xampp_full.rar".
 
 Este archivo es una copia completa de mi directorio de instalación de XAMPP, posee todos los archivos
-utilizados para la generación de la página
+utilizados para la generación de la página.
 
 --
 2:
@@ -48,7 +48,7 @@ Se deberá proceder a instalar postreSQL en este nuevo directorio.
 
 --
 2.5
-Remplazar ciertos archivos en el directorio XAMPP por los presentes en el Drive "xampp_lite.rar"
+Remplazar ciertos archivos en el directorio XAMPP por los presentes en el Drive "xampp_lite.rar".
 
 Este archivo posee una menor cantidad de directorios a reemplazar, pero aseguran de que se
 utilice PHP7.4 correctamente en la nueva instalación de XAMPP.
