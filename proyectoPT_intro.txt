@@ -1,4 +1,4 @@
-Bienvenido
+Bienvenido a mi repositorio
 
 Herramientas utilizadas:
 HTML, CSS, PHP 7.4, Javascript, PostgreSQL, Dbeaver (administración de BD) y XAMPP (servidor web local)
