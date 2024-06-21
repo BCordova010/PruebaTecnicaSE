@@ -1,0 +1,72 @@
+Bienvenido
+
+Herramientas utilizadas:
+HTML, CSS, PHP 7.4, Javascript, PostgreSQL, Dbeaver (administración de BD) y XAMPP (servidor web local)
+
+Drive para obtener los archivos de reemplazo para utilizar PHP 7.4:
+https://drive.google.com/drive/folders/1SvMswDIxu0D2qQLUBevBDL8D2lbH1C0V?usp=drive_link
+(Solicite acceso para poder ver los archivos)
+
+----------------------
+El modelo de datos se puede encontrar en: GitHub -> proyectoPT_sql -> proyectoPT_-_DiagramaER.png
+
+El archivo Backup de la BD se puede entronctrar en: GitHub -> proyectoPT_sql -> backup
+Existen 2 archivos Backup, uno en .sql y otro en .tar, ambos tienen la misma información
+
+El código fuente puede encontrarse en: GitHub -> proyectoPT_codigo -> PruebaTecnicaBodega
+Aquí se encuentran los archivos .php utilizados en la página
+-----------------------
+
+--Como hacer funcionar la página web--
+
+1:
+Se debe instalar XAMPP en el disco en donde se encuentra el sistema operativo.
+
+XAMPP se utiliza para simular múltiples funciones de servidores (Apache, MySQL, FileZilla, etc...)
+para este caso, solo utilizamos Apache.
+
+--
+1.5:
+Reemplazar directorio instalado con el archivo presente en el Drive "xampp_full.rar".
+
+Este archivo es una copia completa de mi directorio de instalación de XAMPP, posee todos los archivos
+utilizados para la generación de la página
+
+--
+2:
+Se debe instalar PostgreSQL dentro de la ruta de instalación de XAMPP.
+
+En caso de seguir el punto 1.5, recomiendo igualmente realizar una instalación limpia de PostgreSQL
+debido a los servicios que se instalarán en el equipo.
+
+Especificamente, se debe crear un directorio llamado "pgsql" 
+y dentro de este se debe crear otro directorio con el número de la versión a utilizar.
+
+En mi caso utilicé la versión 16, por lo que mi directorio se llamará "16".
+
+Se deberá proceder a instalar postreSQL en este nuevo directorio.
+
+--
+2.5
+Remplazar ciertos archivos en el directorio XAMPP por los presentes en el Drive "xampp_lite.rar"
+
+Este archivo posee una menor cantidad de directorios a reemplazar, pero aseguran de que se
+utilice PHP7.4 correctamente en la nueva instalación de XAMPP.
+
+Ambos archivos ya poseen la configuración correcta para utilizar la BD PostgreSQL instalada según
+los pasos indicados en el punto 2.
+
+--
+3:
+Utilizar XAMPP para ejecutar Apache.
+
+Para utilizar el servidor, se debe ejecutar el archivo "xampp-control.exe" y presionar el botón
+"Start" en la linea de Apache.
+
+Una vez que el fondo de la sección de Apache se vuelve verde, está listo para usar el localhost.
+
+para acceder, simplemente de debe escribir "localhost" en el navegador.
+
+--
+
+Con estos pasos debería ser capaz de acceder a la página web local entregada por este repositorio.
